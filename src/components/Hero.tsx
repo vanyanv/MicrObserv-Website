@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import dashboard from '../../public/dashboard.jpg';
+import demo from '../../public/Demo.gif';
 import PropTypes from 'prop-types';
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
@@ -62,11 +63,11 @@ export default function Hero() {
       </svg>
       <div className='mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-40 lg:px-8'>
         <div className='mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8'>
-          <img
+          {/* <img
             className='h-11'
             src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500'
             alt='Your Company'
-          />
+          /> */}
           <div className='mt-24 sm:mt-32 lg:mt-16'>
             <a
               href='https://github.com/oslabs-beta/MicrObserv'
@@ -122,7 +123,7 @@ export default function Hero() {
         <div className='mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32'>
           <div className='max-w-3xl flex-none sm:max-w-5xl lg:max-w-none'>
             <Image
-              src={dashboard}
+              src={demo}
               alt='App screenshot'
               width={2432}
               height={1442}
