@@ -55,7 +55,7 @@ export default function Team() {
           {people.map((person) => (
             <li
               key={person.name}
-              className='rounded-2xl bg-gray-800 px-8 py-10'
+              className='rounded-2xl bg-gray-800 px-8 py-10 '
             >
               <Image
                 className='mx-auto h-48 w-48 rounded-full md:h-56 md:w-56'
