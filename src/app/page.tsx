@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Logos from '@/components/Logos';
+import Team from '@/components/Team';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       {/* <Navbar /> */}
       <Hero />
       <Logos />
+      <Team />
     </>
   );
 }
