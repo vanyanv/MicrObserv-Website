@@ -5,6 +5,10 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
   ServerIcon,
+  BellAlertIcon,
+  ChartBarIcon,
+  ArrowPathRoundedSquareIcon,
+  PencilSquareIcon,
 } from '@heroicons/react/20/solid';
 
 import demo from '../../public/Demo.gif';
@@ -13,39 +17,39 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Automated Logs',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: CloudArrowUpIcon,
+      'Generated automatically these logs capture and record data related to system or application events, user activity, and other relevant information that can be used for analysis, troubleshooting, and reporting purposes.',
+    icon: ArrowPathRoundedSquareIcon,
   },
   {
-    name: 'SSL certificates.',
+    name: 'Tracing',
     description:
-      'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
+      'Provides the ability to trace requests across microservices and identify the root cause of issues. This requires the tool to capture and correlate data across different services and components.',
+    icon: PencilSquareIcon,
   },
   {
-    name: 'Simple queues.',
+    name: 'Visualization',
     description:
-      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
-    icon: ArrowPathIcon,
+      'Visualization is important to provide data and display key metrics to help catch issues with microservices quicker.',
+    icon: ChartBarIcon,
   },
   {
-    name: 'Advanced security.',
+    name: 'Alerting',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: FingerPrintIcon,
+      'Alerts and notifications when issues or anomalies are detected. This includes the ability to set up customized alerts based on specific metrics or events.',
+    icon: BellAlertIcon,
   },
   {
-    name: 'Powerful API.',
+    name: 'Integration',
     description:
-      'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+      'Our NPM package easily integrates to keep track of all requests being made between services recording key data metrics.',
     icon: Cog6ToothIcon,
   },
   {
-    name: 'Database backups.',
+    name: 'Database backups',
     description:
-      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
+      'Logs are backed up to provide a way to protect against data loss by creating a copy of the database at a specific point in time, which can be used to restore data in case of a system failure, human error, or a cyber attack. ',
     icon: ServerIcon,
   },
 ];
@@ -87,7 +91,7 @@ export default function Info() {
       </div>
       <div className='mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8'>
         <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
-          {/* {features.map((feature) => (
+          {features.map((feature) => (
             <div key={feature.name} className='relative pl-9'>
               <dt className='inline font-semibold text-white'>
                 <feature.icon
@@ -98,7 +102,7 @@ export default function Info() {
               </dt>{' '}
               <dd className='inline'>{feature.description}</dd>
             </div>
-          ))} */}
+          ))}
         </dl>
       </div>
     </div>
