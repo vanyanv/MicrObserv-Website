@@ -86,7 +86,7 @@ export default function Hero() {
               </span>
             </a>
           </div>
-          //trying to get animations
+          {/* //trying to get animations */}
           <h1 className='mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl'>
             MicrObserv
           </h1>
