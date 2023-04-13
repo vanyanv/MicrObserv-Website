@@ -7,12 +7,12 @@ import Logos from '@/components/Logos';
 import Team from '@/components/Team';
 import Footer from '@/components/Footer';
 import Info from '@/components/Info';
+import Animation from '@/components/Animation';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
       <Info />
       <Logos />

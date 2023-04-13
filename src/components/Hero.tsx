@@ -3,6 +3,7 @@ import Image from 'next/image';
 import dashboard from '../../public/dashboard.jpg';
 import demo from '../../public/Demo.gif';
 import PropTypes from 'prop-types';
+import Animation from './Animation';
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
 export default function Hero() {
@@ -85,6 +86,7 @@ export default function Hero() {
               </span>
             </a>
           </div>
+          //trying to get animations
           <h1 className='mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl'>
             MicrObserv
           </h1>
