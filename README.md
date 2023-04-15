@@ -26,18 +26,13 @@
   </p>
 </div>
 
+<h2>Currently Hosted on Vercel</h2>
 
 ### Built With
 
 - [![React][react.js]][react-url]
-- [![Electron][electron.com]][electron-url]
-- [![Node.js][node.com]][node-url]
-- [![Express.js][express.com]][express-url]
-- [![Webpack][webpack.com]][webpack-url]
-- [![Websocket][websocket.com]][websocket-url]
 - [![Typescript][typescript.com]][typescript-url]
 - [![Chart.js][chartjs.com]][chartjs-url]
-- [![PostgresSQL][postgres.dev]][postgres-url]
 - [![Tailwindcss][tailwindcss.com]][tailwindcss-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
