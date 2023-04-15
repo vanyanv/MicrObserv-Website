@@ -93,20 +93,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
 
-- [OSlabs](https://opensourcelabs.io/)
-- [Electron Docs](https://www.electronjs.org/docs/latest)
-- [React Docs](https://reactjs.org/docs/getting-started.html)
-- [Webpack Docs](https://webpack.js.org/concepts/)
-- [Tailwindcss Docs](https://tailwindcss.com/docs/installation)
-- [Daisy UI](https://daisyui.com/docs/install/)
-- [Express Docs](https://expressjs.com/en/guide/routing.html)
-- [PostgresSQL](https://www.postgresql.org/docs/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
