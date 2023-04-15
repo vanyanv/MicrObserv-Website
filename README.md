@@ -32,7 +32,6 @@
 
 - [![React][react.js]][react-url]
 - [![Typescript][typescript.com]][typescript-url]
-- [![Chart.js][chartjs.com]][chartjs-url]
 - [![Tailwindcss][tailwindcss.com]][tailwindcss-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
